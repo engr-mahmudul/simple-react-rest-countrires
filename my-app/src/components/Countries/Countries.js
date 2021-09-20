@@ -14,7 +14,7 @@ const Countries = () => {
         <div className='main'>
             
             {
-                countries.map(country => <ShowItems country={country} ></ShowItems>)
+                countries.map(country => <ShowItems key={country.n} country={country} ></ShowItems>)
             }
         </div>
     );

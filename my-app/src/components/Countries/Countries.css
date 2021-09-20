@@ -1,11 +1,15 @@
 .main{
-    background-color: #282c34;
+    background-color: #ffffff;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 1rem;
+    margin: 15px;
+    
+   
    
   }
   .main img{
+    margin-top: 10px;
     height: 200px;
-    width: 100%;
+    width: 90%;
   }
