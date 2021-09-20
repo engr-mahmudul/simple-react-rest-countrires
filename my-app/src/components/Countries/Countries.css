@@ -1,0 +1,11 @@
+.main{
+    background-color: #282c34;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1rem;
+   
+  }
+  .main img{
+    height: 200px;
+    width: 100%;
+  }

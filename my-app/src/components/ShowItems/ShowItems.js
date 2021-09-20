@@ -1,10 +1,12 @@
 import './showItems.css'
 import React from 'react';
 
-const ShowItems = () => {
+const ShowItems = (props) => {
     return (
-        <div>
-            <h2>This is from showitems folder</h2>
+        <div className='single-country'>
+            <img src={props.flag} alt="" />
+            <h2>{props.name} </h2>
+            <h3>{props.capital}</h3>
         </div>
     );
 };
