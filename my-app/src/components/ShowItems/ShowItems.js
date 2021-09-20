@@ -2,11 +2,13 @@ import './showItems.css'
 import React from 'react';
 
 const ShowItems = (props) => {
+    // console.log(props.country);
+    const {name,capital,flag} = props.country;
     return (
         <div className='single-country'>
-            <img src={props.flag} alt="" />
-            <h2>{props.name} </h2>
-            <h3>{props.capital}</h3>
+            <img src={flag} alt="" />
+            <h2>{name} </h2>
+            <h3>{capital}</h3>
         </div>
     );
 };
